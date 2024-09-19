@@ -1,7 +1,7 @@
 *.pyc
 local_settings.py
 local.py
-# */media/
+*/media/
 # **/migrations/
 */staticfiles/
 # Environments
@@ -11,3 +11,8 @@ env/
 venv/
 ENV/
 .idea
+
+# Ignore database files
+*.sqlite3
+*.db
+db.sqlite3
