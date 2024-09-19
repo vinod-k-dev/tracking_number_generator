@@ -1,6 +1,6 @@
 # Tracking Number Generator Software
 
-The objective of this assignment is to develop an Tracking Number Generator  system for Organization. A typical workflow for Organization .
+The objective of this assignment is to develop a Tracking Number Generator system for the organization. This system will be responsible for efficiently generating and managing unique tracking numbers for orders. A typical workflow for the organization using this system will include the creation, retrieval, and management of tracking numbers to streamline logistics and order processing.
 
 ## Clone the project
 Clone the project from Github:
