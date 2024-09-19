@@ -1,0 +1,4 @@
+Django
+django-widget_tweaks
+requests
+djangorestframework
