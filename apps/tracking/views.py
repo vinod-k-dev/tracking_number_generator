@@ -20,8 +20,6 @@ class TrackingNumberView(APIView):
             openapi.Parameter('weight', openapi.IN_QUERY, description="Weight in kilograms (up to 3 decimal places)", type=openapi.TYPE_NUMBER, required=True),
             openapi.Parameter('customer_id', openapi.IN_QUERY, description="Customer UUID", type=openapi.TYPE_STRING, required=True),
             openapi.Parameter('customer_name', openapi.IN_QUERY, description="Customer Name", type=openapi.TYPE_STRING, required=True),
-            openapi.Parameter('customer_slug', openapi.IN_QUERY, description="Customer Slug (automatically generated if not provided)", type=openapi.TYPE_STRING, required=False),
-            openapi.Parameter('created_at', openapi.IN_QUERY, description="Creation timestamp", type=openapi.TYPE_STRING),
         ],
         responses={201: openapi.Response('Success', examples={
             "application/json": {
