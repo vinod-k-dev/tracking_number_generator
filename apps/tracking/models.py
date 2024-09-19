@@ -4,7 +4,7 @@ from django.utils import timezone
 
 class TrackingNumber(models.Model):
     # Fields for the tracking number details
-    tracking_number = models.CharField(max_length=16, unique=True, db_index=True)
+    tracking_number = models.CharField(max_length=20, unique=True, db_index=True)
     origin_country_id = models.CharField(max_length=2)
     destination_country_id = models.CharField(max_length=2)
     weight = models.DecimalField(max_digits=6, decimal_places=3)
