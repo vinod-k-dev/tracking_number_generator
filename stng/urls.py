@@ -40,7 +40,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path("admin/", admin.site.urls),
     # Your API URLs here
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('next-tracking-number/', TrackingNumberView.as_view(), name='next-tracking-number'),
-     path('tracking-numbers/', TrackingNumberListView.as_view(), name='tracking-number-list'),
+    path('tracking-numbers/', TrackingNumberListView.as_view(), name='tracking-number-list'),
+    path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
