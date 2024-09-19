@@ -12,6 +12,8 @@ venv/
 ENV/
 .idea
 
+settings.ini
+
 # Ignore database files
 *.sqlite3
 *.db
