@@ -1,0 +1,5 @@
+#Database credentials
+DATABASE_NAME=demo
+DATABASE_USER=postgres
+DATABASE_PASSWORD=sadsad
+DATABASE_HOST=localhost
